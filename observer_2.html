@@ -14,16 +14,41 @@
            h1:hover{
             background-color: #717171;
            }
+
+
+  button{
+    transition: ease-in-out;
+    transition-duration: 800ms;
+}
+
 button:hover{
     font-size: 25px;
     background-color: #532319;
-    transition: ease-in-out;
-    transition-duration: 600ms;
+    /* transition: 2s ease-in-out ; */
+    /* transition-duration: 1000ms; */
     cursor: grab;
 }
+div:nth-child(2)
+{
+    background-color: rgb(18, 165, 94);
+}
 
+.yo{
+    transition: ease-in-out;
+    transition-duration: 800ms;
+    margin: 20px;
+    display: inline-block;
+    font-size: 5px;
+    margin-left: 200px;
 
-
+}
+/* hover se pehle ke cmds */
+.yo:hover{
+    transform: rotate(1800deg) scale(3);
+    /* font-size: 25px; */
+    /* margin-top: 50px; */
+}
+/* } hover ke tym ke cmds h tbhi aaega */
 
 
     </style>
@@ -34,7 +59,9 @@ button:hover{
         
         <button>Submit</button>
         <h1>Foucs</h1>
-        <button>Focus</button>
+        <button>Focus</button>        <br>
+        <br>
+
         <input type="text" required="true" />
         <input type="checkbox" />
         <input type="text" disabled="true" />
@@ -47,8 +74,9 @@ button:hover{
             <h1>pseudo before nd after</h1>
             <h2>first selectpor</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi, aut magni, quam itaque, ex totam facere quidem assumenda illo id dicta eaque autem nisi accusantium earum aperiam. Voluptatibus, quidem.
+                Congratulations
             </p>
+            <button class="yo">you are gay</button>
 
 </body>
-</html>
+</html> 
