@@ -60,6 +60,7 @@ body{
     top: 20px;
     right: 60px;
     z-index: -1;
+    /* z index se z axis me upr neeche */
     
  } #box6
  {
