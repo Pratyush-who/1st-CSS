@@ -10,7 +10,7 @@ body
 
 div{
     height:25vh;
-    width: 50%;
+    width: 10%;
     display: inline;
     border: 2px solid pink;
 }
@@ -20,7 +20,7 @@ width: 80%;
 display: flex;
 flex-direction: row;
 justify-content: center; 
-/* flex-wrap: wrap; */
+/* flex-wrap: wrap;
 /* jitta jgah chiye hoga utta lega baki neeche fek dega */
 align-items: flex-start; 
  /* align-content: flex-start; */
@@ -37,18 +37,20 @@ align-items: flex-start;
  {
     background-color: aqua;
     height: 250px;
-    align-self: flex-start;
+    align-self: flex-start;   
  } 
  #box3
  {
     background-color: blueviolet;
     height: 300px;
-    flex-shrink: 0;
+    flex-grow: 1;
 
  } 
  #box4
  {
     background-color: chartreuse;
+    flex-grow: 2;
+    /* flex-grow: se bacha hua extra space sara cover kr leta h; */
  } 
  #box5
  {

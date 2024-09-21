@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(99, 214, 99);
+}
+@media (min-width : 601px) {
+    div{
+            background-color: #707070;
+    }
+}
+@media (width : 600px) {
+    div{
+            background-color: #de0c0c;
+    }
+}
