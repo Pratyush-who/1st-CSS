@@ -3,7 +3,7 @@ div{
     width: 100px;
     background-color: rgb(99, 214, 99);
 }
-@media (min-width : 601px) {
+@media (min-width : 600px) {
     div{
             background-color: #707070;
     }
@@ -11,5 +11,11 @@ div{
 @media (width : 600px) {
     div{
             background-color: #de0c0c;
+    }
+}
+@media (min-width:200px) and (max-width:300px)
+{
+    div{
+        background-color: #31abd3;
     }
 }

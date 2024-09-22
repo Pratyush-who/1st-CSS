@@ -1,0 +1,38 @@
+.sub{
+    height: 20vh;
+    width: 8%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/021/524/282/non_2x/abstract-purple-wavy-papercut-overlap-layers-background-eps10-vector.jpg); 
+    margin: 5px;
+    border: 4px rgb(254, 254, 254) solid ;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    transition-delay: 10ms;
+    transition-duration: 800ms;
+    transition-property: all;
+    border-radius: 15px;
+    justify-content: center;
+/* content chaudai ke centre pe lata h */
+align-items: center ;
+}
+.sub:hover{
+    background-color: chocolate;
+    color: rgb(0, 0, 0);
+    height: 35vh;
+    width: 13%;
+    /* transform: rotate(360deg); */
+
+}
+.main{
+display: flex;
+justify-content: center;
+/* content chaudai ke centre pe lata h */
+align-items: center ;
+/* allign: lambai ke centre pe; */
+flex-direction: row;
+height: 100vh;
+}
+body{
+    background-color: #B2C14E;
+}
+
