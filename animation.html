@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes movement {
+            from{top: 0px;}
+            to{top: 67vh;
+            background-color: yellow;
+            transform: rotate(360deg) ;
+        }
+        }
+        #haha{
+            height: 30vh;
+            width: 10%;
+            border: 2px black solid;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            animation-name: movement;
+            animation-duration: .75s;
+            animation-delay: 1sec;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+            animation-direction:alternate;
+        }
+        #container{
+            height: 30vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        body{
+            background-color: #000;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"><div id="haha"> <b>ANDAA</b> </div></div>
+    
+</body>
+</html>
